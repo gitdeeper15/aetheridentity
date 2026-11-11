@@ -1,0 +1,10 @@
+include README.md
+include LICENSE
+include CHANGELOG.md
+include CITATION.cff
+include SPECIFICATION.md
+include INVARIANTS.md
+include TESTS.md
+include ROADMAP_v2.md
+recursive-include docs/figures *.png
+recursive-include paper *.pdf

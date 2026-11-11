@@ -38,7 +38,7 @@
 ---
 
 > *"AetherIdentity is a candidate, not a result."*
-
+>
 > *"Not falsified is a weaker status than confirmed."*
 
 ---
@@ -55,18 +55,29 @@
 - [Installation](#installation)
 - [Reproduction](#reproduction)
 - [Citation](#citation)
-- [Author](#-author)
-- [License](#️-license)
+- [Related Aether Records](#related-aether-records)
+- [Author](#author)
+- [License](#license)
 
 ---
 
 ## Overview
 
-**AetherIdentity** is the **eighth functional dimension (candidate, provisional)** of the Aether family — a formal architecture for identity proof, continuity, reputation, Sybil resistance, and delegation in multi-agent software ecosystems.
+**AetherIdentity** is the **eighth functional dimension (candidate, provisional)** of the Aether family: a formal architecture for identity proof, continuity, reputation, Sybil resistance, and delegation in multi-agent software ecosystems.
 
 The Aether family currently comprises seven foundational dimensions (AetherGit, AetherFlow, AetherProof, AetherMesh, AetherGovern, AetherRuntime, AetherOrchestrate). All rely on a notion of *who acts*, but none treats identity itself.
 
 The framework investigates whether those five concerns amount to a genuine gap that justifies an eighth dimension, or are an artifact of how the existing dimensions were scoped.
+
+The five layers:
+
+| Layer | Question |
+|---|---|
+| **L1 — Identity** | Who is the agent, and can it prove it? |
+| **L2 — Continuity** | Does the identity persist across restarts and key changes? |
+| **L3 — Reputation** | What is the agent's behavioral history? |
+| **L4 — Sybil resistance** | Are multiple identities controlled by one entity? |
+| **L5 — Delegation** | Can authority be transferred with bounded scope? |
 
 ---
 
@@ -96,14 +107,15 @@ The framework investigates whether those five concerns amount to a genuine gap t
 | Record types | ✅ Implemented |
 
 **Not implemented** (out of scope for v2.0.0):
-- Network transport, consensus.
-- AetherMesh integration (optional, S7).
-- Fork resolution.
-- Recovery after total key loss.
-- Single-instance enforcement.
-- Byzantine behavior.
 
-See `SPECIFICATION.md` §11.
+- Network transport and consensus
+- AetherMesh integration (optional, S7)
+- Fork resolution
+- Recovery after total key loss
+- Single-instance enforcement
+- Byzantine behavior
+
+See [`SPECIFICATION.md`](SPECIFICATION.md) §11.
 
 ---
 
@@ -116,7 +128,7 @@ See `SPECIFICATION.md` §11.
 | Tests failed | 0 |
 | Coverage | **93%** |
 
-All 12 core invariants (I1–I12) are covered. See `REPORTS/v2.0.0/test_report.md`.
+All 12 core invariants (I1–I12) are covered. See [`REPORTS/v2.0.0/test_report.md`](REPORTS/v2.0.0/test_report.md) and [`INVARIANTS.md`](INVARIANTS.md).
 
 ---
 
@@ -126,8 +138,11 @@ All 12 core invariants (I1–I12) are covered. See `REPORTS/v2.0.0/test_report.m
 |---|---|---|
 | **S1 — Bootstrap** | Test P2 (irreducible trust anchor) | **P2 not falsified** (bootstrap requires an anchor) |
 | **S6 — Governance overlap** | Test F3 (boundary with governance) | **F3 inconclusive** (fragile: holds in some uses, fails in others) |
+| S2–S5 | Deferred | Not run; reported as deferred |
 
-Four scenarios (S2–S5) are **deferred** and reported as such. See `REPORTS/v2.0.0/evaluation_report.md`.
+Scenarios S2–S5 are **deferred** and reported as such. See [`REPORTS/v2.0.0/evaluation_report.md`](REPORTS/v2.0.0/evaluation_report.md).
+
+The evaluation plan was preregistered on OSF: [10.17605/OSF.IO/B6AEN](https://doi.org/10.17605/OSF.IO/B6AEN).
 
 ---
 
@@ -190,7 +205,9 @@ AetherIdentity/
 
 ---
 
-Installation
+## Installation
+
+Requires Python 3.10+. Runtime dependency: `cryptography >= 41.0`.
 
 ```bash
 # From source (development)
@@ -206,11 +223,9 @@ python experiments/S1_bootstrap/run.py
 python experiments/S6_governance_overlap/run.py
 ```
 
-Requires Python 3.10+. Runtime dependency: cryptography >= 41.0.
-
 ---
 
-Reproduction
+## Reproduction
 
 ```bash
 # Full test run with coverage
@@ -225,15 +240,13 @@ python experiments/S6_governance_overlap/run.py
 cat experiments/S6_governance_overlap/results.json
 ```
 
-The expected output matches REPORTS/v2.0.0/test_report.md and REPORTS/v2.0.0/evaluation_report.md.
+The expected output matches [`REPORTS/v2.0.0/test_report.md`](REPORTS/v2.0.0/test_report.md) and [`REPORTS/v2.0.0/evaluation_report.md`](REPORTS/v2.0.0/evaluation_report.md).
 
 ---
 
-Citation
+## Citation
 
-Paper — AetherIdentity v1.0.0 (Zenodo)
-
-https://zenodo.org/badge/DOI/10.5281/zenodo.24102739.svg
+### Paper — AetherIdentity v1.0.0 (Zenodo)
 
 ```bibtex
 @techreport{baladi2026aetheridentity,
@@ -251,7 +264,7 @@ https://zenodo.org/badge/DOI/10.5281/zenodo.24102739.svg
 }
 ```
 
-Software — AetherIdentity v2.0.0
+### Software — AetherIdentity v2.0.0
 
 ```bibtex
 @software{baladi2026aetheridentity_v2,
@@ -267,9 +280,7 @@ Software — AetherIdentity v2.0.0
 }
 ```
 
-OSF Preregistration
-
-https://img.shields.io/badge/OSF-Preregistered-blue?logo=osf&logoColor=white
+### OSF Preregistration
 
 ```bibtex
 @misc{baladi2026aetheridentity_osf,
@@ -287,43 +298,49 @@ https://img.shields.io/badge/OSF-Preregistered-blue?logo=osf&logoColor=white
 }
 ```
 
-Related Aether Records
+---
 
-Dimension DOI
-AetherGit 10.5281/zenodo.23976986
-AetherFlow 10.5281/zenodo.23979129
-AetherProof 10.5281/zenodo.24013124
-AetherMesh 10.5281/zenodo.24038038
-AetherGovern 10.5281/zenodo.24054524
-AetherRuntime 10.5281/zenodo.24078477
-AetherOrchestrate 10.5281/zenodo.24095399
+## Related Aether Records
+
+| Dimension | Focus | DOI |
+|---|---|---|
+| AetherGit | Storage and versioning | [10.5281/zenodo.23966896](https://doi.org/10.5281/zenodo.23966896) |
+| AetherFlow | Integration and verification | [10.5281/zenodo.23979129](https://doi.org/10.5281/zenodo.23979129) |
+| AetherProof | Specification and evidence | [10.5281/zenodo.24013124](https://doi.org/10.5281/zenodo.24013124) |
+| AetherMesh | Distribution and consistency | [10.5281/zenodo.24038038](https://doi.org/10.5281/zenodo.24038038) |
+| AetherGovern | Authority and policy | [10.5281/zenodo.24054524](https://doi.org/10.5281/zenodo.24054524) |
+| AetherRuntime | Monitoring and assurance | [10.5281/zenodo.24078477](https://doi.org/10.5281/zenodo.24078477) |
+| AetherOrchestrate | Orchestration | [10.5281/zenodo.24095399](https://doi.org/10.5281/zenodo.24095399) |
+| **AetherIdentity (candidate)** | Identity and continuity | [10.5281/zenodo.24102739](https://doi.org/10.5281/zenodo.24102739) |
 
 ---
 
-👤 Author
+## Author
 
-Samir Baladi
-Interdisciplinary AI Researcher — Ronin Institute / Rite of Renaissance
+**Samir Baladi**
+Interdisciplinary AI Researcher, Ronin Institute / Rite of Renaissance
 
- 
-Research Area Distributed Systems / Security / Multi-Agent Systems
-Research Domain Identity, Continuity, Reputation, Sybil Resistance, Delegation
-Research Type Formal Architecture Proposal + Reference Implementation
-📧 Email gitdeeper@gmail.com
-🔗 ORCID 0009-0003-8903-0029
-🐙 GitHub gitdeeper15/aetheridentity
-🦊 GitLab gitlab.com/gitdeeper15/aetheridentity
-🟦 Codeberg codeberg.org/gitdeeper15/aetheridentity
-🪣 Bitbucket bitbucket.org/gitdeeper15/aetheridentity
-🌐 Official Site aetheridentity.netlify.app
+| | |
+|---|---|
+| Research area | Distributed Systems / Security / Multi-Agent Systems |
+| Research domain | Identity, Continuity, Reputation, Sybil Resistance, Delegation |
+| Research type | Formal Architecture Proposal + Reference Implementation |
+| Email | [gitdeeper@gmail.com](mailto:gitdeeper@gmail.com) |
+| ORCID | [0009-0003-8903-0029](https://orcid.org/0009-0003-8903-0029) |
+| GitHub | [gitdeeper15/aetheridentity](https://github.com/gitdeeper15/aetheridentity) |
+| GitLab | [gitlab.com/gitdeeper15/aetheridentity](https://gitlab.com/gitdeeper15/aetheridentity) |
+| Codeberg | [codeberg.org/gitdeeper15/aetheridentity](https://codeberg.org/gitdeeper15/aetheridentity) |
+| Bitbucket | [bitbucket.org/gitdeeper15/aetheridentity](https://bitbucket.org/gitdeeper15/aetheridentity) |
+| Website | [aetheridentity.netlify.app](https://aetheridentity.netlify.app) |
 
 ---
 
-⚖️ License
+## License
 
-Scope License
-Code MIT License — Copyright © 2026 Samir Baladi
-Documentation, manuscript, and figures CC-BY-4.0
+| Scope | License |
+|---|---|
+| Code | MIT License, Copyright © 2026 Samir Baladi |
+| Documentation, manuscript, and figures | CC-BY-4.0 |
 
 <details>
 <summary><b>MIT License — full text</b></summary>
@@ -342,12 +359,20 @@ furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```
 
 </details>
 
 ---
 
-AetherIdentity v2.0.0 — Experimental Reference Implementation
-© 2026 Samir Baladi — Ronin Institute / Rite of Renaissance — MIT (code) + CC-BY-4.0 (docs)
-Zenodo: 10.5281/zenodo.24102739 | Figshare: 10.6084/m9.figshare.34981891 | OSF: 10.17605/OSF.IO/B6AEN | Website: aetheridentity.netlify.app
+*AetherIdentity v2.0.0 — Experimental Reference Implementation.*
+*© 2026 Samir Baladi — Ronin Institute / Rite of Renaissance — MIT (code) + CC-BY-4.0 (docs).*
+*Zenodo: 10.5281/zenodo.24102739 · Figshare: 10.6084/m9.figshare.34981891 · OSF: 10.17605/OSF.IO/B6AEN · Website: aetheridentity.netlify.app*

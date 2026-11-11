@@ -24,7 +24,6 @@ SOFTWARE.
 
 Note on scope:
 
-The MIT license above applies to code. No code is included in this record
-(v0.1.0 is a research paper). The documentation, manuscript, and figures are
-released under CC-BY-4.0:
+The MIT license above applies to code (v2.0.0, src/aetheridentity/).
+The documentation, manuscript, and figures are released under CC-BY-4.0:
 https://creativecommons.org/licenses/by/4.0/legalcode

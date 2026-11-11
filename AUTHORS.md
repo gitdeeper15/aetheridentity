@@ -16,15 +16,18 @@ The Aether family investigates functional dimensions of coordinated agentic
 software engineering. Each preprint adopts a falsification-first methodology:
 failure conditions are stated before the candidate is described.
 
----
+## Versions
+
+- **v0.1.0** — Architectural Hypothesis (original draft)
+- **v1.0.0** — Formal Architecture Proposal (33-page paper)
+- **v2.0.0** — Experimental Reference Implementation (this release)
 
 ## How to contribute
 
-This record contains the research paper only. It has no implementation, test,
-or experiment. Contributions at this stage take the form of:
+**For the paper (v1.0.0):** independent review of F1–F4, literature pointers,
+bibliographic corrections.
 
-- Independent review of the failure conditions F1–F4.
-- Pointers to relevant literature not covered in the review.
-- Corrections to bibliographic metadata.
+**For the implementation (v2.0.0):** bug reports, coverage improvements,
+new tests for the deferred scenarios (S2–S5).
 
 See `CONTRIBUTING.md` for details.
