@@ -19,6 +19,7 @@
 [![Tests](https://img.shields.io/badge/Tests-35%20passed-brightgreen)](tests/)
 [![Coverage](https://img.shields.io/badge/Coverage-93%25-brightgreen)](ANALYSIS/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&logoColor=white)](https://python.org)
+[![PyPI](https://img.shields.io/badge/PyPI-2.0.0-gold?logo=pypi&logoColor=white)](https://pypi.org/project/aetheridentity/)
 
 <!-- Family -->
 [![Aether Family](https://img.shields.io/badge/Aether%20Family-8%20dimensions%20(candidate)-purple)](https://aetheridentity.netlify.app)
@@ -43,6 +44,18 @@
 
 ---
 
+## How to cite
+
+If you use **AetherIdentity** in your research, please cite:
+
+- **Paper (v1.0.0):** Baladi, S. (2026). *AetherIdentity: A Falsification-First Investigation of Decentralized Agent Identity in the Aether Family* (Version 1.0.0). Zenodo. [10.5281/zenodo.24102739](https://doi.org/10.5281/zenodo.24102739)
+- **Software (v2.0.0):** Baladi, S. (2026). *AetherIdentity v2.0.0: Reference Implementation of the Falsification-First Identity Architecture* (Version 2.0.0). PyPI. [pypi.org/project/aetheridentity](https://pypi.org/project/aetheridentity/)
+- **OSF Preregistration:** Baladi, S. (2026). *AetherIdentity: A Falsification-First Investigation of Decentralized Agent Identity in the Aether Family*. OSF. [10.17605/OSF.IO/B6AEN](https://doi.org/10.17605/OSF.IO/B6AEN)
+
+Full BibTeX entries are in the [BibTeX](#bibtex) section below.
+
+---
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -54,7 +67,8 @@
 - [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Reproduction](#reproduction)
-- [Citation](#citation)
+- [How to cite](#how-to-cite)
+- [BibTeX](#bibtex)
 - [Related Aether Records](#related-aether-records)
 - [Author](#author)
 - [License](#license)
@@ -209,7 +223,12 @@ AetherIdentity/
 
 Requires Python 3.10+. Runtime dependency: `cryptography >= 41.0`.
 
+PyPI package: [`aetheridentity`](https://pypi.org/project/aetheridentity/)
+
 ```bash
+# From PyPI (once published)
+pip install aetheridentity
+
 # From source (development)
 git clone https://github.com/gitdeeper15/aetheridentity.git
 cd aetheridentity
@@ -244,7 +263,7 @@ The expected output matches [`REPORTS/v2.0.0/test_report.md`](REPORTS/v2.0.0/tes
 
 ---
 
-## Citation
+## BibTeX
 
 ### Paper — AetherIdentity v1.0.0 (Zenodo)
 
@@ -313,6 +332,8 @@ The expected output matches [`REPORTS/v2.0.0/test_report.md`](REPORTS/v2.0.0/tes
 | AetherOrchestrate | Orchestration | [10.5281/zenodo.24095399](https://doi.org/10.5281/zenodo.24095399) |
 | **AetherIdentity (candidate)** | Identity and continuity | [10.5281/zenodo.24102739](https://doi.org/10.5281/zenodo.24102739) |
 
+**Package:** [aetheridentity on PyPI](https://pypi.org/project/aetheridentity/) — v2.0.0 reference implementation.
+
 ---
 
 ## Author
@@ -331,6 +352,7 @@ Interdisciplinary AI Researcher, Ronin Institute / Rite of Renaissance
 | GitLab | [gitlab.com/gitdeeper15/aetheridentity](https://gitlab.com/gitdeeper15/aetheridentity) |
 | Codeberg | [codeberg.org/gitdeeper15/aetheridentity](https://codeberg.org/gitdeeper15/aetheridentity) |
 | Bitbucket | [bitbucket.org/gitdeeper15/aetheridentity](https://bitbucket.org/gitdeeper15/aetheridentity) |
+| PyPI | [pypi.org/project/aetheridentity](https://pypi.org/project/aetheridentity/) |
 | Website | [aetheridentity.netlify.app](https://aetheridentity.netlify.app) |
 
 ---
@@ -375,4 +397,4 @@ SOFTWARE.
 
 *AetherIdentity v2.0.0 — Experimental Reference Implementation.*
 *© 2026 Samir Baladi — Ronin Institute / Rite of Renaissance — MIT (code) + CC-BY-4.0 (docs).*
-*Zenodo: 10.5281/zenodo.24102739 · Figshare: 10.6084/m9.figshare.34981891 · OSF: 10.17605/OSF.IO/B6AEN · Website: aetheridentity.netlify.app*
+*Zenodo: 10.5281/zenodo.24102739 · Figshare: 10.6084/m9.figshare.34981891 · OSF: 10.17605/OSF.IO/B6AEN · PyPI: [aetheridentity](https://pypi.org/project/aetheridentity/) · Website: aetheridentity.netlify.app*
