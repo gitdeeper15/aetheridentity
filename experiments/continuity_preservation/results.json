@@ -1,0 +1,72 @@
+{
+  "experiment": "continuity_preservation",
+  "metric": "M2 \u2014 Continuity preservation",
+  "count": 10,
+  "results": [
+    {
+      "identity_id": "a7acbb4e97ef3671",
+      "epochs": 5,
+      "chain_ok": true,
+      "preserved": true
+    },
+    {
+      "identity_id": "74566a9d042c5f83",
+      "epochs": 5,
+      "chain_ok": true,
+      "preserved": true
+    },
+    {
+      "identity_id": "3eac568d1b9a7b36",
+      "epochs": 5,
+      "chain_ok": true,
+      "preserved": true
+    },
+    {
+      "identity_id": "6f6a04e4bb86a28f",
+      "epochs": 5,
+      "chain_ok": true,
+      "preserved": true
+    },
+    {
+      "identity_id": "04f556e2c06e884a",
+      "epochs": 5,
+      "chain_ok": true,
+      "preserved": true
+    },
+    {
+      "identity_id": "274d3f5bf2a99b3a",
+      "epochs": 5,
+      "chain_ok": true,
+      "preserved": true
+    },
+    {
+      "identity_id": "ddd7d965b3fa061d",
+      "epochs": 5,
+      "chain_ok": true,
+      "preserved": true
+    },
+    {
+      "identity_id": "c5736b5376f65fed",
+      "epochs": 5,
+      "chain_ok": true,
+      "preserved": true
+    },
+    {
+      "identity_id": "27ec9b917416a77c",
+      "epochs": 5,
+      "chain_ok": true,
+      "preserved": true
+    },
+    {
+      "identity_id": "7d4320be07547713",
+      "epochs": 5,
+      "chain_ok": true,
+      "preserved": true
+    }
+  ],
+  "summary": {
+    "all_chains_ok": true,
+    "all_preserved": true,
+    "max_epochs": 5
+  }
+}

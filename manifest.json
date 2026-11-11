@@ -1,0 +1,170 @@
+{
+  "manifest_version": "1.0",
+  "project": {
+    "name": "AetherIdentity",
+    "provisional": true,
+    "full_title": "AetherIdentity: A Falsification-First Investigation of Decentralized Agent Identity in the Aether Family",
+    "subtitle": "A Falsification-First Investigation of Identity Proof, Continuity, Reputation, Sybil Resistance, and Delegation in Multi-Agent Software Ecosystems",
+    "version": "2.0.0",
+    "paper_version": "1.0.0",
+    "type": "preprint",
+    "status": "experimental_reference_implementation",
+    "release_date": "2026-11-10",
+    "language": "en",
+    "doi": "10.5281/zenodo.24102739",
+    "doi_url": "https://doi.org/10.5281/zenodo.24102739",
+    "record_id": "AETHERIDENTITY-01",
+    "dimension": "eighth functional dimension (candidate)"
+  },
+  "author": {
+    "name": "Samir Baladi",
+    "role": "Interdisciplinary AI Researcher",
+    "affiliation": "Ronin Institute / Rite of Renaissance",
+    "email": "gitdeeper@gmail.com",
+    "orcid": "0009-0003-8903-0029"
+  },
+  "methodology": {
+    "approach": "falsification-first",
+    "prior_assumption": "none",
+    "failure_conditions": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6"
+    ],
+    "final_structure": "determined_after_comparison"
+  },
+  "identity_layers": [
+    {
+      "id": "L1",
+      "name": "Identity",
+      "question": "Who is the agent, and can it prove it?",
+      "status": "hypothesis"
+    },
+    {
+      "id": "L2",
+      "name": "Continuity",
+      "question": "Does the identity persist across restarts and key changes?",
+      "status": "hypothesis"
+    },
+    {
+      "id": "L3",
+      "name": "Reputation",
+      "question": "What is the behavioral history?",
+      "status": "hypothesis"
+    },
+    {
+      "id": "L4",
+      "name": "Sybil Resistance",
+      "question": "Is one entity behind many identities?",
+      "status": "hypothesis"
+    },
+    {
+      "id": "L5",
+      "name": "Delegation",
+      "question": "Can authority move with bounded scope?",
+      "status": "hypothesis"
+    }
+  ],
+  "propositions": [
+    {
+      "id": "P1",
+      "name": "Determinism of local identity issuance (restated)",
+      "status": "proof_sketch",
+      "machine_checked": false
+    },
+    {
+      "id": "P2",
+      "name": "Irreducible trust anchor",
+      "status": "proof_sketch",
+      "machine_checked": false
+    }
+  ],
+  "formal_artifacts": {
+    "definitions": 4,
+    "propositions": 2,
+    "failure_conditions": 5,
+    "requirements": 6,
+    "identity_layers": 5,
+    "figures": 9,
+    "references": 29,
+    "open_questions": 20,
+    "evaluation_metrics": 9,
+    "baselines": 5,
+    "scenarios": 6,
+    "threats_to_validity": 7
+  },
+  "implementation": {
+    "status": "built",
+    "modules": 8,
+    "tests": 35,
+    "tests_passed": 35,
+    "coverage": "93%",
+    "experiments": [
+      "S1_bootstrap",
+      "S6_governance_overlap"
+    ],
+    "experiments_executed": 2,
+    "experiments_deferred": [
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ]
+  },
+  "deployment": {
+    "status": "not_evaluated",
+    "reason": "no real-world deployment has been evaluated"
+  },
+  "peer_review": {
+    "status": "not_peer_reviewed",
+    "venue": "preprint (Zenodo)"
+  },
+  "assessment": {
+    "F1": "not_falsified",
+    "F2": "not_falsified_narrowly",
+    "F3": "not_falsified_decentralized_setting",
+    "F4": "not_falsified_with_residuals",
+    "F5": "untested"
+  },
+  "epistemic_status": {
+    "not_falsified_is_not_confirmed": true,
+    "proof_sketch_is_not_proof": true,
+    "argument_only_no_causal_claims": true,
+    "final_structure_undetermined": true
+  },
+  "links": {
+    "zenodo": "https://doi.org/10.5281/zenodo.24102739",
+    "related_aethergit": "https://doi.org/10.5281/zenodo.23976986",
+    "related_aetherflow": "https://doi.org/10.5281/zenodo.23979129",
+    "related_aetherproof": "https://doi.org/10.5281/zenodo.24013124",
+    "related_aethermesh": "https://doi.org/10.5281/zenodo.24038038",
+    "related_aethergovern": "https://doi.org/10.5281/zenodo.24054524",
+    "related_aetherruntime": "https://doi.org/10.5281/zenodo.24078477",
+    "related_aetherorchestrate": "https://doi.org/10.5281/zenodo.24095399",
+    "figshare": "https://doi.org/10.6084/m9.figshare.34981891"
+  },
+  "artifacts": {
+    "manuscript": {
+      "path": "AetherIdentity_Research_Paper.pdf",
+      "pages": 33,
+      "version": "0.1.0"
+    },
+    "figures_dir": "docs/figures/"
+  },
+  "license": {
+    "documentation": "CC-BY-4.0",
+    "note": "No code is included in this record; the MIT license applies only to a future implementation."
+  },
+  "real_world_deployment": false,
+  "peer_reviewed": false
+}

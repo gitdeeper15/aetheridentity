@@ -1,0 +1,313 @@
+{
+  "experiment": "identity_issuance",
+  "metric": "M1 \u2014 Identity issuance accuracy",
+  "count": 50,
+  "results": [
+    {
+      "identity_id": "5af7af6b21c97d01",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "5b022f9591bdf9d0",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "dfb2205ed85e919a",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "6f28cffcb5722df9",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "a06dafc65d524487",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "7e1551d1c92f815d",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "761438f53e54b5e0",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "3ddb8aec08f66db0",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "0b1fb82bc65c5d71",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "5a204b7ad13936ae",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "5589ea5543aa1ef1",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "9690fbf8cb5c5ca7",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "72c774f329df37fa",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "f90c31cc25c26a24",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "8854822d69222b15",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "79cc1e393a91f3ce",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "267d10c28d74536f",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "6790793238fbf98b",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "34d924d7499135cb",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "fd85c437c69da0e5",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "37c736978ca97de4",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "c1db6f815d40c7b6",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "a45363179dca4b71",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "1944254f724c7057",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "6d9590d477f3fb9c",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "401b2f06cc0d7062",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "1d89a8e8795155e5",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "ae90c929d552f93c",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "671da9fbc63caa82",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "e473cb70eedcd4c2",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "681927f8c0aa2d3c",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "2c4c57a19c24211a",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "367dea28e4f9be96",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "25b7e8d3d2854fb2",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "d7975293672c0fc6",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "dad8f23834af2492",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "913fc6835e885dc4",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "f87150df8ddb60dd",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "a03bbc7e136eab50",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "0ef66a191c2d54e7",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "2333b272cbebff7e",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "1064b01c142b3b0a",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "fa747de8346801a5",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "731f78f439a4b99d",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "6fab2e5eef8dd63f",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "7a370c7709666b59",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "4da941afc1b6ecac",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "56d200439235d54d",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "2e8a095eda423191",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    },
+    {
+      "identity_id": "172673a5e81702cb",
+      "issued": true,
+      "correct_verified": true,
+      "wrong_rejected": true
+    }
+  ],
+  "summary": {
+    "all_issued": true,
+    "all_verified": true,
+    "all_wrong_rejected": true,
+    "unique_ids": 50
+  }
+}

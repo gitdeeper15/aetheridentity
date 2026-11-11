@@ -1,0 +1,25 @@
+{
+  "experiment": "S1_bootstrap",
+  "purpose": "Test P2 (irreducible trust anchor)",
+  "runs": [
+    {
+      "scenario": "S1_no_anchor",
+      "n_nodes": 10,
+      "identities_admitted": 10,
+      "identities_with_standing": 0,
+      "bootstrapped": false,
+      "p2_holds": true,
+      "note": "No identity reaches standing without an anchor. P2 is not falsified."
+    },
+    {
+      "scenario": "S1_with_anchor",
+      "n_nodes": 10,
+      "anchor": "33095f364a7cbdd2aaae7072d53238450bed84c4d2eb8bd492d1a959fc3b561c",
+      "identities_admitted": 10,
+      "identities_with_standing": 9,
+      "bootstrapped": true,
+      "p2_holds": true,
+      "note": "Bootstrap succeeds only with an explicit anchor. P2 is not falsified."
+    }
+  ]
+}

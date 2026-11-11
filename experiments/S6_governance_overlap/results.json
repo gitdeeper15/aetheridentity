@@ -1,0 +1,29 @@
+{
+  "experiment": "S6_governance_overlap",
+  "purpose": "Test F3 (boundary with governance)",
+  "threshold": 0.8,
+  "runs": [
+    {
+      "scenario": "low_overlap",
+      "n_delegations": 2,
+      "overlap_fraction": 0.0,
+      "threshold": 0.8,
+      "f3_falsified": false
+    },
+    {
+      "scenario": "high_overlap",
+      "n_delegations": 2,
+      "overlap_fraction": 1.0,
+      "threshold": 0.8,
+      "f3_falsified": true
+    },
+    {
+      "scenario": "partial_overlap",
+      "n_delegations": 2,
+      "overlap_fraction": 0.5,
+      "threshold": 0.8,
+      "f3_falsified": false
+    }
+  ],
+  "f3_falsified_in_any_run": true
+}

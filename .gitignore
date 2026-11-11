@@ -1,0 +1,48 @@
+# Operating systems
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+dist/
+build/
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# LaTeX and PDF build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Temporary
+*.tmp
+*.bak
+*~
+
+# Local environment
+.env
+.env.*
+
+# AetherOrchestrate leftovers (not part of AetherIdentity)
+upload_aetherorchestrate.py
+v0.1.0/
+EXTERNAL_REVIEW/
+VALIDATION/
+INVENTORY.md

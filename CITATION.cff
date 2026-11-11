@@ -1,0 +1,62 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: software
+title: "AetherIdentity: A Falsification-First Investigation of Decentralized Agent Identity in the Aether Family"
+version: 2.0.0
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24102739
+    description: "Zenodo DOI (paper v1.0.0, software v2.0.0)"
+  - type: doi
+    value: 10.6084/m9.figshare.34981891
+    description: "Figshare preprint DOI"
+  - type: doi
+    value: 10.17605/OSF.IO/B6AEN
+    description: "OSF Preregistration DOI"
+doi: 10.5281/zenodo.24102739
+date-released: 2026-11-11
+license: MIT
+license-url: https://opensource.org/licenses/MIT
+url: https://doi.org/10.5281/zenodo.24102739
+repository-code: https://github.com/gitdeeper15/aetheridentity
+abstract: >
+  AetherIdentity is a candidate eighth functional dimension of the Aether
+  family. It investigates whether identity proof, continuity, reputation,
+  Sybil resistance, and delegation in multi-agent software ecosystems
+  constitute a genuine gap not already covered by the seven existing
+  dimensions. v2.0.0 is an experimental reference implementation of the
+  v1.0.0 paper. It implements L1–L5 and a minimal independent simulator.
+  It does not implement network transport, consensus, or AetherMesh
+  integration. No real-world deployment has been evaluated.
+keywords:
+  - AetherIdentity
+  - decentralized identity
+  - self-certifying identifiers
+  - key rotation
+  - reputation
+  - Sybil resistance
+  - delegation
+  - falsification
+  - reference implementation
+  - aether family
+authors:
+  - family-names: Baladi
+    given-names: Samir
+    orcid: https://orcid.org/0009-0003-8903-0029
+    email: gitdeeper@gmail.com
+    affiliation: "Ronin Institute / Rite of Renaissance"
+references:
+  - type: software
+    title: "AetherIdentity v2.0.0: Reference Implementation"
+    authors:
+      - family-names: Baladi
+        given-names: Samir
+    doi: 10.5281/zenodo.24102739
+    year: 2026
+  - type: generic
+    title: "AetherIdentity: A Falsification-First Investigation (Paper v1.0.0)"
+    authors:
+      - family-names: Baladi
+        given-names: Samir
+    doi: 10.5281/zenodo.24102739
+    year: 2026

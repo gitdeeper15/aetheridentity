@@ -1,0 +1,112 @@
+{
+  "experiment": "delegation_scope",
+  "metric": "M3 \u2014 Delegation scope correctness",
+  "count": 20,
+  "results": [
+    {
+      "delegation_ok": true,
+      "delegation_expired_rejected": true,
+      "unauthorized_rejected": true
+    },
+    {
+      "delegation_ok": true,
+      "delegation_expired_rejected": true,
+      "unauthorized_rejected": true
+    },
+    {
+      "delegation_ok": true,
+      "delegation_expired_rejected": true,
+      "unauthorized_rejected": true
+    },
+    {
+      "delegation_ok": true,
+      "delegation_expired_rejected": true,
+      "unauthorized_rejected": true
+    },
+    {
+      "delegation_ok": true,
+      "delegation_expired_rejected": true,
+      "unauthorized_rejected": true
+    },
+    {
+      "delegation_ok": true,
+      "delegation_expired_rejected": true,
+      "unauthorized_rejected": true
+    },
+    {
+      "delegation_ok": true,
+      "delegation_expired_rejected": true,
+      "unauthorized_rejected": true
+    },
+    {
+      "delegation_ok": true,
+      "delegation_expired_rejected": true,
+      "unauthorized_rejected": true
+    },
+    {
+      "delegation_ok": true,
+      "delegation_expired_rejected": true,
+      "unauthorized_rejected": true
+    },
+    {
+      "delegation_ok": true,
+      "delegation_expired_rejected": true,
+      "unauthorized_rejected": true
+    },
+    {
+      "delegation_ok": true,
+      "delegation_expired_rejected": true,
+      "unauthorized_rejected": true
+    },
+    {
+      "delegation_ok": true,
+      "delegation_expired_rejected": true,
+      "unauthorized_rejected": true
+    },
+    {
+      "delegation_ok": true,
+      "delegation_expired_rejected": true,
+      "unauthorized_rejected": true
+    },
+    {
+      "delegation_ok": true,
+      "delegation_expired_rejected": true,
+      "unauthorized_rejected": true
+    },
+    {
+      "delegation_ok": true,
+      "delegation_expired_rejected": true,
+      "unauthorized_rejected": true
+    },
+    {
+      "delegation_ok": true,
+      "delegation_expired_rejected": true,
+      "unauthorized_rejected": true
+    },
+    {
+      "delegation_ok": true,
+      "delegation_expired_rejected": true,
+      "unauthorized_rejected": true
+    },
+    {
+      "delegation_ok": true,
+      "delegation_expired_rejected": true,
+      "unauthorized_rejected": true
+    },
+    {
+      "delegation_ok": true,
+      "delegation_expired_rejected": true,
+      "unauthorized_rejected": true
+    },
+    {
+      "delegation_ok": true,
+      "delegation_expired_rejected": true,
+      "unauthorized_rejected": true
+    }
+  ],
+  "summary": {
+    "all_authorized_ok": true,
+    "all_expired_rejected": true,
+    "all_unauthorized_rejected": true
+  }
+}
